@@ -16,19 +16,19 @@ void (*functionPointer)(int) = myFunction;
 functionPointer(5); // Calls myFunction with the argument 5.
 ```
 
-✨ Why Use Them?
+### ✨ Why Use Them?
 Customization: Pass logic to algorithms or loops.
 Abstraction: Decouple functionality from specific implementations.
 Callbacks: Implement event-driven programming or library hooks.
 
-🚨 Important Syntax Details
+### 🚨 Important Syntax Details
 Declaring a function pointer:
 
 ```cpp
 returnType (*pointerName)(parameterTypes);
 ```
 
-Example:
+**Example:**
 ```cpp
 void (*funcPointer)(int) = myFunction;
 ```
@@ -44,7 +44,7 @@ Using auto for implicit types:
 auto func = myFunction; // Implicitly deduces the type.
 ```
 
-🚀 Example: Passing Functions as Arguments
+### 🚀 Example: Passing Functions as Arguments
 Here’s a practical example that uses function pointers to iterate through a vector and apply a custom function to each element.
 
 ```cpp
@@ -87,7 +87,7 @@ int main() {
 
 When you run the program:
 
-printValues is applied to each element in the vector:
+`printValues` is applied to each element in the vector:
 ```cpp
 Value: 1
 Value: 5
@@ -96,7 +96,7 @@ Value: 2
 Value: 3
 ```
 
-HelloWorld is applied to each element:
+`HelloWorld` is applied to each element:
 ```cpp
 Hello World! Value: 1
 Hello World! Value: 5
@@ -107,4 +107,4 @@ Hello World! Value: 3
 > [!WARNING]
 > Ensure the function signature of the pointer matches the function you’re assigning; mismatches can lead to undefined behavior.
 
-Happy coding! 🚀
+# Happy coding! 🚀
