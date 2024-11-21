@@ -83,7 +83,7 @@ int main() {
 
 ```
 
-🔥 Output Explanation
+### 🔥 Output Explanation
 
 When you run the program:
 
