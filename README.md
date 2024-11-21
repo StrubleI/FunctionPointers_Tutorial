@@ -7,7 +7,8 @@ Function pointers in C++ allow you to store the address of a function and call i
 ## 📚 Key Concepts
 
 ### 🔧 What Are Function Pointers?
-A function pointer stores the address of a function and can be used to invoke it. 
+A function pointer stores the address of a function and can be used to invoke it.
+
 **Example:**
 ```cpp
 void myFunction(int value) {
